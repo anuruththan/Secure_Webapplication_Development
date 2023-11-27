@@ -80,7 +80,7 @@ if(contact==null){
         return "redirect:/services";
     }
  @GetMapping("/service-list")
- public String diru(){
+ public String anu(){
     return "service-list";
  }
   @GetMapping("/insert")
